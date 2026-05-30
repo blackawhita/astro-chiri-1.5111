@@ -63,20 +63,49 @@
     "views": []
   },
   "astroComposerConfig": {
-    "customContentTypes": [],
-    "defaultTemplate": "",
-    "configFilePath": "",
-    "terminalProjectRootPath": ""
+    "customContentTypes": [
+      {
+        "id": "content-type-1773431208519-4qz4popde",
+        "name": "Posts",
+        "folder": "posts",
+        "template": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+        "enabled": true,
+        "linkBasePath": "/",
+        "creationMode": "file",
+        "indexFileName": "index"
+      },
+      {
+        "id": "content-type-1773431208519-nqu3222gc",
+        "name": "About",
+        "folder": "about",
+        "template": "---\ntitle: \"{{title}}\"\n---\n",
+        "enabled": true,
+        "linkBasePath": "/",
+        "creationMode": "file",
+        "indexFileName": "index"
+      }
+    ],
+    "defaultTemplate": "---\ntitle: \"{{title}}\"\npubDate: {{date}}\n---\n",
+    "configFilePath": "../config.ts",
+    "terminalProjectRootPath": "../..",
+    "showMdxFilesInExplorer": true,
+    "postsFolder": "posts",
+    "postsCreationMode": "file",
+    "postsIndexFileName": "index",
+    "syncDraftDate": true,
+    "draftDetectionMode": "underscore-prefix",
+    "publishDateField": "pubDate"
   },
   "seoConfig": {
     "titleProperty": "title",
     "scanDirectories": "posts",
     "useFilenameAsTitle": false,
     "useFilenameAsSlug": true,
-    "enableMDXSupport": false
+    "enableMDXSupport": true
   },
   "propertyOverFileName": {
-    "propertyKey": "title"
+    "propertyKey": "title",
+    "enableMdxSupport": true
   },
   "imageManager": {
     "enableRenameOnPaste": true,
@@ -227,16 +256,23 @@
     "hideReleaseNotes": false,
     "stickyIconReplaceTab": false
   },
-  "explorerFocus": {},
+  "explorerFocus": {
+    "showRightClickMenu": true,
+    "showFileExplorerIcon": true,
+    "focusLevel": "parent",
+    "hideAncestorFolders": false
+  },
   "ignoreConfig": {
     "gitIgnoreConfigured": true,
     "viteIgnoreConfigured": true
   },
   "gitConfig": {
-    "enabled": false,
+    "enabled": true,
     "isPrivate": false,
     "branchName": "main",
-    "autoConfigureObsidianGit": false
+    "autoConfigureObsidianGit": true,
+    "repoName": "astro-chiri-1.5111",
+    "repoDescription": "Blog"
   },
   "deploymentPlatform": "",
   "resolvePublicImages": false,

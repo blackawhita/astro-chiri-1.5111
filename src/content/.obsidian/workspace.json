@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "480576c31d2be20f",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "73cfda486e3f6ff9",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "fc3238cabf8dcc98",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -141,6 +141,6 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc3238cabf8dcc98",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": []
 }
