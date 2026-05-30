@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1b701c1b5c4da36b",
+            "id": "312123b9199e26c0",
             "type": "leaf",
             "state": {
               "type": "bases",
@@ -139,7 +139,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1b701c1b5c4da36b",
+  "active": "312123b9199e26c0",
   "lastOpenFiles": [
     "posts/draft-example.md",
     "_bases/Home.base",
