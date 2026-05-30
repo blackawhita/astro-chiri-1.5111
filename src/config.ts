@@ -4,9 +4,9 @@ export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
     website: 'https://chiri.the3ash.com/', // Site domain
-    title: '_Cuddly Thoughts_', // Site title
-    author: 'Abhishek', // Author name
-    description: 'Minimal blog built by Astro', // Site description
+    title: 'Cuddly Thoughts', // Site title
+    author: 'abhishek', // Author name
+    description: 'Hiii', // Site description
     language: 'en-US' // Default language
   },
 
@@ -15,7 +15,7 @@ export const themeConfig: ThemeConfig = {
     contentWidth: '35rem', // Content area width
     centeredLayout: true, // Use centered layout (false for left-aligned)
     themeToggle: true, // Show theme toggle button (uses system theme by default)
-    postListDottedDivider: false, // Show dotted divider in post list
+    postListDottedDivider: true, // Show dotted divider in post list
     footer: true, // Show footer
     fadeAnimation: true // Enable fade animations
   },
