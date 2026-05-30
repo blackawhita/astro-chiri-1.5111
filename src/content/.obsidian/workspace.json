@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc573a384c61fefa",
+            "id": "76bc68f22b1d7a7c",
             "type": "leaf",
             "state": {
               "type": "bases",
@@ -139,13 +139,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc573a384c61fefa",
+  "active": "76bc68f22b1d7a7c",
   "lastOpenFiles": [
-    "posts/draft-example.md",
+    "posts/markdown-style-guide.md",
     "_bases/Home.base",
+    "posts/draft-example.md",
     "posts/using-mdx.mdx",
     "posts/the-tr-808-story.md",
-    "posts/markdown-style-guide.md",
     "posts/theme-guide.md"
   ]
 }
