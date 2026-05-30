@@ -4,7 +4,7 @@ export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
     website: 'https://chiri.the3ash.com/', // Site domain
-    title: 'Cuddly Thoughts 🌸', // Site title
+    title: 'Cuddly Thoughts ✿', // Site title
     author: 'abhishek', // Author name
     description: 'Hiii', // Site description
     language: 'en-US' // Default language
