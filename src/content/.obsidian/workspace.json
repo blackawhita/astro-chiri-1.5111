@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7c1c626cbbba3ed",
+            "id": "fc573a384c61fefa",
             "type": "leaf",
             "state": {
               "type": "bases",
@@ -139,10 +139,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e7c1c626cbbba3ed",
+  "active": "fc573a384c61fefa",
   "lastOpenFiles": [
-    "posts/using-mdx.mdx",
+    "posts/draft-example.md",
     "_bases/Home.base",
+    "posts/using-mdx.mdx",
     "posts/the-tr-808-story.md",
     "posts/markdown-style-guide.md",
     "posts/theme-guide.md"
